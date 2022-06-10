@@ -7,6 +7,7 @@
     android:clipToPadding="false"
     android:overScrollMode="never"
     android:padding="@dimen/_24sdp"
+    android:background="@color/primary_lightdark"
     android:scrollbars="none"
     tools:context=".activities.SignInActivity">
 
@@ -46,7 +47,7 @@
             android:inputType="textEmailAddress"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/primary_dark"
             android:textSize="@dimen/_13ssp"/>
 
         <EditText
@@ -61,7 +62,7 @@
             android:inputType="textPassword"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/primary_dark"
             android:textSize="@dimen/_13ssp"/>
 
         <FrameLayout

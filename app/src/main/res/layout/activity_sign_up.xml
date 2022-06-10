@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:clipToPadding="false"
     android:overScrollMode="never"
+    android:background="@color/primary_lightdark"
     android:padding="@dimen/_24sdp"
     android:scrollbars="none"
     tools:context=".activities.SignUpActivity">
@@ -59,7 +60,7 @@
             android:inputType="text"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/primary_dark"
             android:textSize="@dimen/_13ssp"/>
         <EditText
             android:id="@+id/inputEmail"
@@ -73,7 +74,7 @@
             android:inputType="textEmailAddress"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/primary_dark"
             android:textSize="@dimen/_13ssp"/>
 
         <EditText
@@ -88,7 +89,7 @@
             android:inputType="textPassword"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/primary_dark"
             android:textSize="@dimen/_13ssp"/>
 
         <EditText
@@ -103,7 +104,7 @@
             android:inputType="textPassword"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/primary_dark"
             android:textSize="@dimen/_13ssp"/>
 
         <FrameLayout
